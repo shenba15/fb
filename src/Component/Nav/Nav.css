@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 100%;
+}
+
+#search {
+    position: absolute;
+    top: 20px;
+    /* right:25px; */
+    left: 25px;
+
+}
+.mnavrow2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  #f0f2f5;
+    
+    
+}
+.micons{
+    /* width: 20%; */
+    padding: 10px;
+    border-left: 1px solid  #f0f2f5;
+    font-size: 25px;
+}
+#home{
+    border: none;
+    color:blue
+}
+#facebook{
+    position:sticky;
+    background-color: white;
+    top:0%;
+    z-index: 100;
+}
+.logoutsec{
+    padding:10px;
+    /* width:25%; */
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+    background-color: #f0f2f5;
+    right:1%;
+   
+}
+.logoutrow1,.logoutrow2{
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 0px 2px black;
+    /* background-color:white; */
+    border-radius: 5px;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.logoutrow1{
+    background-color:white;
+}
+.logoutrow2{
+    justify-content: space-around;
+    display: flex;
+    /* display: none; */
+    background-color: #f0f2f5;
+}
+
+.others{
+    width:40%;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.others p{
+    padding:10px 0px
+}
+.profile{
+    width:50px;
+    height:40px;
+    border-radius: 50%;
+    /* padding-right: 10px; */
+}
+.profile img{
+    width:80%;
+    height: 100%;
+    border-radius: 50%;
+}
+.proname p{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.view{
+    color:blue;
+    cursor: pointer;
+}
+.logoutrow3{
+    padding: 10px;
+}
+.logouticon{
+    width:50px;
+    height:50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f0f2f5;
+}
+.logout{
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 10px;
+    box-shadow: 0px 0px 2px black;
+    cursor: pointer;
+    /* justify-content: space-between; */
+}
+.logout p{
+    padding:15px 0px 0px 20px ;
+
+}
+
+
+@media(min-width:1000px) {
+    .lnavsection {
+        padding: 10px 20px 0px 10px;
+        display: block;
+        background-color:white;
+        border-bottom: 1px solid black;
+        position:sticky;
+        top:0;
+        z-index: 100;
+
+    }
+    .logoutrow2{
+        display: none;
+    }
+    .logoutsec{
+        width:25%;
+        position: fixed;
+        z-index:100;
+        top:15%;
+
+    }
+
+    .lnavrow {
+        display: flex;
+    }
+
+    .lnavcol1 {
+        display: flex;
+        width: 35%;
+    }
+
+    .lnavcol1 .logo {
+        width: 20%;
+        height: 20%;
+    }
+
+    .lnavcol2 {
+        display: flex;
+        width: 30%;
+        font-size: 25px;
+        justify-content: space-around;
+        padding: 10px 0px;
+        position: relative;
+    }
+
+    .search {
+        padding: 15px;
+        position: relative;
+    }
+
+    .search input {
+        padding: 5px 30px;
+        border-radius: 20px;
+        background-color: #f0f2f5;
+    }
+
+    .lnavcol2 .select {
+        width: 100px;
+        height: 2px;
+        left: 25px;
+        background-color: blue;
+        position: absolute;
+    }
+
+    .selecthome {
+        color: blue;
+    }
+
+    .lnavcol3 {
+        width: 35%;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+
+    }
+
+    .frd {
+        padding: 10px;
+        background-color: #f0f2f5;
+        height: 50%;
+        /* width:25%; */
+        border-radius: 20px;
+
+    }
+
+    .navicons {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 20px;
+        /* margin: 5px; */
+        font-size: 20px;
+        background-color: #f0f2f5;
+
+    }
+
+    .dp {
+        width: 10%;
+        height: 50%;
+        border-radius: 50%;
+        /* overflow: hidden; */
+
+    }
+
+    .dp img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .mnavsec {
+        display: none;
+    }
+
+}
+
+@media(max-width:960px) {
+    .mnavsec {
+        display: block;
+        border-bottom: 1px solid black;
+        position:sticky;
+        top:0px;
+        background-color: white;
+         z-index:100;
+    }
+    .logoutsec{
+        width:100%;
+        position: absolute;
+        /* top:0; */
+        z-index:1;
+        font-size: 14px;
+    }
+
+    .lnavsection {
+        display: none;
+    }
+
+    .mnavrow1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 50%;
+        height: 20%;
+        padding: 0px 10px;
+        /* background-color: black; */
+        padding: 10px 0px 0px 0px;
+    }
+
+    .msearch {
+        margin-top: 20px;
+        padding: 10px;
+        /* width: 10%;
+        border-radius: 50%;
+        height: 20%;
+        background-color: #f0f2f5; */
+    }
+    .msear{
+        width:25px;
+        height: 25px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        display: inline-flex;
+        color:black;
+        background-color: #f0f2f5;
+
+    }
+}
+@media(min-width:660px){
+    
+    .msearch {
+        margin-top: 50px;
+        padding: 15px;
+        font-size: 25px;
+        width: 8%;
+        font-size: 25px;
+        border-radius: 50%;
+        height: 30%;
+        background-color: #f0f2f5;
+    }
+    .msear{
+        padding: 0px;
+    }
+    /* .logoutrow2{
+        display: block;
+    } */
+  
+
+}
+
+@media(width:1024px){
+    
+    .frd {
+        padding: 10px;
+        background-color: #f0f2f5;
+        height: 50%;
+        /* width:25%; */
+        border-radius: 20px;
+
+    }
+    .dp {
+        width: 15%;
+        height: 50%;
+        border-radius: 50%;
+        /* overflow: hidden; */
+
+    }
+
+    .lnavcol2 .select {
+        width: 70px;
+        height: 2px;
+        left: 20px;
+        background-color: blue;
+        position: absolute;
+    }
+}

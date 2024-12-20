@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ #container{
+     box-shadow: 0 0 10px 1px rgb(79, 110, 247);
+     padding:4%;
+     border-radius: 10px;
+ 
+ }
+ 
+.loginhead3{
+     text-align: center;
+     padding:10px;
+     color:rgb(79, 110, 247);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+ }
+ 
+ .loginhead4,.loginhead5{
+     text-align: center;
+     padding:10px;
+     font-size: 23px;
+ }
+ 
+ .loginhead5{
+     text-align: center;
+     padding:10px;
+     font-size: 12px;
+     cursor: pointer;
+ }
+ 
+.logininput{
+     width: 100%;
+     padding:10px;
+ }
+ 
+ 
+ /* a{
+     text-decoration: none;
+     color:rgb(79, 110, 247);
+ } */
+ 
+ #btn{
+     background-color:rgb(79, 110, 247);
+     border: none;
+ }
+ .passeye{
+    position: relative;
+    /* width: 100%; */
+}
+.eye{
+    position: absolute;
+    right: 4%;
+    top:25%;
+    color: rgb(90, 86, 86);
+    cursor: pointer;
+}
+ @media(min-width:1000px){
+ 
+#loginsec{
+    width:30%;
+    margin: auto;
+    margin-top: 10%;
+    padding:2%;
+    
+}
+    }
+@media(max-width:960px){
+ 
+        #loginsec{
+            width:80%;
+            margin: auto;
+            margin-top: 10%;
+            padding:2%;
+            
+        }
+            }

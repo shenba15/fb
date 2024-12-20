@@ -1,0 +1,354 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#homesec{
+    /* padding: 20px; */
+    background-color: #f0f2f5;
+    display: flex;
+    width:100%;
+    /* height:100vh; */
+    z-index: 100;
+}
+.home1col{
+    display: flex;
+    padding: 10px 0px;
+    /* background-color: aqua; */
+}
+
+.home1img{
+    width:25px;
+    border-radius: 50%;
+    height:25px;  
+}
+
+.home1img1{
+    width:40px;
+    border-radius: 50%;
+    height:40px;  
+}
+
+.frd{
+    position: relative; 
+}
+.online{
+    position: absolute;
+    width:10px;
+    background-color:green;
+    border:1px solid white;
+    border-radius: 50%;
+    height: 10px;
+    top:50px;
+    left: 20px;
+    /* bottom: 20px; */
+}
+.home1img img,.home1img #downicon,.home1img1 #downicon,.home1img1 img{
+    width:100%;
+    border-radius: 50%;
+    height:100%;
+}
+.home1col p{
+    padding: 5px 0px 0px 20px;
+    /* color:blue; */
+    font-weight: bolder;
+}
+.contactrow1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    width:100%;
+    padding-bottom: 20px;
+
+}
+.postcon{
+    padding:10px;
+}
+.postrow1{
+    background-color: white;
+    padding:10px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5px;
+}
+.home1col #input{
+    margin:0px 20px;
+    padding:10px 20px;
+    background-color:#f0f2f5;
+    border: none;
+    border-radius: 20px;
+    width:80%;
+}
+.postvie{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#pvideo div{
+    color:red;
+    padding-right: 20px;
+    font-size: 22px;
+}
+.fileinput{
+    display: none;
+}
+.file{
+    font-size: 25px;
+}
+#pimage div{
+    color:green;
+    font-size: 22px;
+    padding-right: 20px;
+}
+#emoji div{
+    font-size: 22px;
+    padding-right: 20px;
+    color:orange;
+}
+.postrow2col{
+    padding:4%;
+    margin: 20px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    
+}
+.postrow2col-1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.savedel{
+    position: absolute;
+    /* top:-10%; */
+    /* display: none; */
+    cursor: pointer;
+    padding: 10px;
+    /* right:10%; */
+    box-shadow: 0px 0px 2px black;
+    background-color: white;
+}
+.postdp{
+    display: flex;
+    width:70%;
+}
+.menuicon{
+    /* padding:0px 10px; */
+    font-size: 25px;
+}
+.postdpimg{
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.postdpimg img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.postimage{
+    padding:2%;
+    /* width:80%;
+    margin:auto */
+    height:500px;
+}
+.postimage .imgvid{
+    width:100%;
+    height:100%;
+}
+.cap{
+    padding:18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.likecomment{
+    display: flex;
+    font-size: 18px;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.likecommmentshare div{
+    display: flex;
+}
+.likecommmentshare p{
+    padding-left:10px;
+}
+.com{
+    padding: 2% 0;
+}
+.username{
+    padding-bottom: 10px;
+}
+.useruse{
+    color:gray
+}
+.postdp{
+    padding:20px;
+
+}
+@media(min-width:1000px){
+    #homesec{
+        padding: 20px;
+    }
+    .home1sec{
+        width:17%;
+        position:fixed;
+        /* top:20vh; */
+        background-color: #f0f2f5;
+        height: 100vh;
+
+    }
+    .home1con{
+        height: 100%;
+    }
+    .post{
+        width:60%;
+        margin: auto;
+        height:100%;
+        /* background-color:white; */
+    }
+    .picon{
+        /* display: flex; */
+        width:30%;
+        padding: 20px 20px 0px;
+        /* justify-content: space-between; */
+    }
+    .postrow1{
+        width:80%;
+        margin: auto;
+    }
+    #contact{
+        padding:20px;
+        width:23%;
+        position: fixed;
+        right:0;
+        height:100vh;
+        background-color: #f0f2f5;
+        /* z-index:-1; */
+    }
+    .picon{
+        display: flex;
+    }
+    .file{
+        display: none;
+    }
+.postrow2{
+    padding:2%;
+    width:70%;
+    margin: auto;
+}
+
+.likecommmentshare{
+    display: flex;
+    font-size:20px;
+    padding:4%;
+    justify-content: space-between;
+}
+.username,.useruse{
+    font-size: 12px;
+}
+.savedel{
+    right:10%;
+    top: -10%;
+}
+.home1col p{
+    font-size:15px;
+
+}
+}
+@media(max-width:960px){
+    .home1sec{
+       display: none;   
+    }
+    #contact{
+        display: none;   
+     }
+    .post{
+        width:100%
+    }
+    .picon{
+        width:100%;
+        
+    }
+    .postvie{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    
+.postrow2{
+    width:100%;
+    margin: auto;
+}
+.likecomment .likecom{
+    width:30%;
+    font-size: 12px;
+
+}
+.username,.useruse{
+    font-size: 12px;
+}
+.likecomment .comlike{
+    width:67%;
+    font-size: 12px;
+}
+
+.likecommmentshare{
+    display: flex;
+    font-size:12px;
+    padding:4%;
+    justify-content: space-between;
+}
+.savedel{
+    right:20%;
+    font-size: 11px;
+    top: -5%;
+}
+.home1col{
+    font-size: 12px;
+
+}
+
+
+}
+@media(min-width:660px){
+    #homesec{
+        padding: 20px;
+    }
+    
+.likecommmentshare{
+    display: flex;
+    font-size:20px;
+    padding:4%;
+    justify-content: space-between;
+}
+.likecomment .comlike{
+    width:70%;
+    font-size: 20px;
+
+}
+.likecomment .likecom{
+    width:29%;
+    font-size: 20px;
+
+}
+.username,.useruse{
+    font-size: 18px;
+}
+.savedel{
+    right:10%;
+    top: -10%;
+}
+   
+.postrow2,.postrow1{
+    width:80%;
+    margin: auto;
+}
+.home1col{
+    font-size: 20px;
+
+}
+}

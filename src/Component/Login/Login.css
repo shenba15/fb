@@ -1,0 +1,177 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+    
+}
+
+.more{
+    text-decoration: none;
+    color:rgb(79, 79, 236);
+}
+
+#container{
+    padding: 2%;
+    border:2px solid black;
+    
+}
+
+#head{
+    padding: 2%;
+    color:gray;
+    font-size: 15px;
+}
+
+#row1{
+    padding: 2%;
+    text-align: center;
+    width:95%
+}
+
+#row2{
+    padding: 2%;
+    width:95%
+}
+
+#row3{
+    padding: 2%;
+    width:95%
+
+}
+
+#col1{
+    width: 100%;
+    justify-content: space-between;
+
+}
+#col2 input{
+    padding: 2%;
+    width: 100%;
+}
+
+#head5{
+    padding: 20px 0px 20px 0px;
+}
+.sel{
+    margin-right: 10px
+}
+.error{
+    padding: 0px 0px 10px 0px;
+    color:red;
+    /* text-align: center; */
+}
+
+#col4{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#col4 div{
+    padding: 2%;
+    border: 1px solid black;
+    width: 32.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.para{
+    padding: 20px 0px 10px 0px;
+    font-size: 16px;
+}
+
+#signbtn{
+    text-align: center;
+    
+}
+.passeye{
+    position: relative;
+    /* width: 100%; */
+}
+.eye{
+    position: absolute;
+    right: 4%;
+    top:25%;
+    color: rgb(90, 86, 86);
+    cursor: pointer;
+}
+
+#signbtn input{
+    background-color:rgba(62, 199, 8, 0.877);
+    padding: 2%;
+    width: 25%;
+    border: none;
+}
+@media(max-width:700px){
+    
+    #logsection{
+        width: 100%;
+        margin: auto;
+        padding: 4%;
+    }
+#col3 select{
+        width: 30%;
+        padding: 2%;
+    }
+    
+#col1 input{
+    padding: 2%;
+    width: 99%;   
+}
+
+
+#col1input{
+    margin-bottom: 10px;
+}
+
+
+    }
+@media(min-width:710px){
+       
+#logsection{
+    width: 70%;
+    margin: auto;
+    padding: 4%;
+}
+
+#col3 select{
+            width: 31%;
+            padding: 2%;
+        }
+#col1 input{
+            padding: 2%;
+            width: 49%;   
+        }
+
+#col1input{
+            margin-right: 5px;
+        }
+        
+        
+}
+@media(min-width:1000px){
+    
+    #logsection{
+        width: 50%;
+        margin: auto;
+        padding: 4%;
+    }
+    
+    #col3 select{
+        width: 31%;
+        padding: 2%;
+    }
+    
+    #col1 input{
+        padding: 2%;
+        width: 49%;   
+    }
+    
+    #col1input{
+        margin-right: 5px;
+    }
+    
+    
+    }
